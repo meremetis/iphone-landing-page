@@ -1,3 +1,8 @@
+:root {
+  --black: black;
+  --white: white;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,11 +15,11 @@ body {
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
 
 a:visited {
-  color: black;
+  color: var(--black);
 }
 
 .container {
@@ -67,7 +72,7 @@ aside {
   gap: 100px;
   width: 50px;
   height: 80%;
-  color: white;
+  color: var(--white);
   text-align: center;
   right: 25px;
   bottom: 0;
@@ -136,7 +141,7 @@ aside {
 }
 
 .color-white {
-  color: white;
+  color: var(--white);
 }
 
 .iphone-text {
@@ -179,6 +184,6 @@ aside {
 .right-section-nav {
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: var(--white);
   font-weight: bold;
 }
